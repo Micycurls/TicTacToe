@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap')
+
+
+
+*{
+    /* margin 0 krne pr ye upar ka pura space hat jayega */
+    /* pdding 0 krne pr space  ho jayega */
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(108, 141, 148);
+    color: white;
+    height: 25px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    /* google fonts ke help se humlog es letter ka font change krwa akte  h but here i am liking this so i am consider this  */
+
+}
+nav ul{
+    list-style-type: none;
+
+}
+
+/* ye class tha esliye eske aage (.) agr id hota to same (#) se krte  */
+
+
+.gameContainer{
+/* background-color: yellow; */
+display: flex;
+margin: auto;
+justify-content: center;
+margin-top: 50x;
+}
+
+.container{
+     display: grid;
+     grid-template-rows: repeat(3,10vw);
+     grid-template-columns: repeat(3,10vw);
+}
+
+.container div{
+    border: 2px solid black;
+    font-size: 9vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* hover matlb agar arrow lekrr gaye to suka color voilet ho rha h  */
+.container div :hover{
+   background-color: blueviolet;
+   
+}
+.info{
+    font-size: 22px;
+}
+.gameInfo{
+    margin: 0;
+    padding: 0 34px;
+  font-family: "Baloo 2", sans-serif;
+  
+}
+
+.imagbox img{
+    width : 0;
+    transition: width 1s ease-in-out;
+}
+
+.container{
+
+.br-0{
+     border-right: 0;
+}
+
+.bl-0{
+     border-left: 0;
+}
+.bt-0{
+     border-top: 0;
+}
+.bb-0{
+     border-bottom: 0;
+}
+}
+
+.reset{
+    margin: 0;
+    padding: 6px;
+    background-color: rgb(142, 231, 228);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Baloo 2", sans-serif;
+    font-size: large;
+    font-weight: 200;
+}
